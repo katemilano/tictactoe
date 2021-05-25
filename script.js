@@ -1,19 +1,20 @@
-//Global Variablea
-const ptags = document.getElementsByTagName("P");
-const box = document.getElementsByClassName("cell");
-
 //Onload make all Xs and Os invisible
-window.addEventListener('load', function() {
-    for (let i = 0; i <ptags.length; i++){
-        ptags[i].setAttribute("style", "opacity: 0;")
-    }
+$(window).on('load', function() {
+    var ptags = $("p");
+    ptags.each(function(i, element){
+        $(element).attr("style","opacity:0;")
+        console.log($(element));
+
+    });
+    
 })
 
 //When you click on the box game starts
 
-function showMove(){
+// function showMove(event){
+//     console.log(event);
+//     console.log(event.target);
+// }
 
-}
 
-
-box.addEventListener("click", showMove());
+// box.addEventListener("click", showMove(event));
