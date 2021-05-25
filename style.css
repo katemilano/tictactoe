@@ -1,4 +1,5 @@
 .grid-container {
+    position: absolute;
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: lightblue;
@@ -37,54 +38,54 @@
 
 #x1, #o1{
     position: absolute;
-    top: 35%;
-    left: 34%;
+    top: 2%;
+    left: 7%;
 }
 
 #x2, #o2{
     position: absolute;
-    top: 35%;
-    left: 46.5%;
+    top: 2%;
+    left: 42%;
 }
 
 #x3, #o3{
     position: absolute;
-    top: 35%;
-    left: 59%;
+    top: 2%;
+    left: 75%;
 }
 
 #x4, #o4{
     position: absolute;
-    top: 54%;
-    left: 34%;
+    top: 35%;
+    left: 7%;
 }
 
 #x5, #o5{
     position: absolute;
-    top: 54%;
-    left: 46.5%;
+    top: 35%;
+    left: 42%;
 }
 
 #x6, #o6{
     position: absolute;
-    top: 54%;
-    left: 59%;
+    top: 35%;
+    left: 75%;
 }
 
 #x7, #o7{
     position: absolute;
-    top: 74%;
-    left: 34%;
+    top: 68%;
+    left: 7%;
 }
 
 #x8, #o8{
     position: absolute;
-    top: 74%;
-    left: 46.5%;
+    top: 68%;
+    left: 42%;
 }
 
 #x9, #o9{
     position: absolute;
-    top: 74%;
-    left: 59%;
+    top: 68%;
+    left: 75%;
 }
