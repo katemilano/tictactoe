@@ -35,14 +35,56 @@
       font-size: 120px;
   }
 
-.X{
+#x1, #o1{
     position: absolute;
-    top: 54%;
-    left: 36%;
+    top: 35%;
+    left: 34%;
 }
 
-.O{
+#x2, #o2{
+    position: absolute;
+    top: 35%;
+    left: 46.5%;
+}
+
+#x3, #o3{
+    position: absolute;
+    top: 35%;
+    left: 59%;
+}
+
+#x4, #o4{
     position: absolute;
     top: 54%;
-    left: 36%;
+    left: 34%;
+}
+
+#x5, #o5{
+    position: absolute;
+    top: 54%;
+    left: 46.5%;
+}
+
+#x6, #o6{
+    position: absolute;
+    top: 54%;
+    left: 59%;
+}
+
+#x7, #o7{
+    position: absolute;
+    top: 74%;
+    left: 34%;
+}
+
+#x8, #o8{
+    position: absolute;
+    top: 74%;
+    left: 46.5%;
+}
+
+#x9, #o9{
+    position: absolute;
+    top: 74%;
+    left: 59%;
 }
