@@ -7,6 +7,10 @@ $(window).on('load', function() {
     
 })
 
+$("#video").on('play',function(){
+    $(this).playbackRate = .5;
+  });
+
 //When you click on the box game starts
 var count = 0;
 
@@ -22,6 +26,5 @@ function showMove(){
     }
    count++;
 }
-
 
 $(".cell").on("click", showMove);

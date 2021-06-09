@@ -1,3 +1,14 @@
+#myVideo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+}
 .grid-container {
     position: absolute;
     display: grid;
@@ -5,10 +16,16 @@
     background-color: lightblue;
     width: 500px;
     height: 450px;
-    margin-top: 2%;
     margin-left: 30%;
     border: 10px solid #8acbde;
     box-shadow: 20px 20px lightgrey;
+  }
+
+  #content{
+    position: relative;
+    z-index: 2;
+
+   
   }
 
 .cell {
@@ -22,11 +39,13 @@
   }
 
   h1{
-    margin-top: 10%;
-    margin-left: 33%;
-    font-size: 400%;
+      
+    margin-top: 5%;
+    margin-left: 30%;
+    font-size: 500%;
     color: #fcf4a3;
     text-shadow: 5px 5px lightgrey;
+    z-index: 1;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
