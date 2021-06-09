@@ -18,11 +18,22 @@ function showMove(){
     var p = $(this).children('p')[0];
 
     if (count % 2 === 0){
-        let p = $(this).children('p')[0];
-        $(p).attr("style", "opacity:1;")
+        let o = $(this).children('p')[0];
+        let x = $(this).children('p')[1];
+        if ($(x).attr("style", "opacity:0;")){
+            $(o).attr("style", "opacity:1;");
+        }else{
+
+        }
+            
     }else{
-        let p = $(this).children('p')[1];
-        $(p).attr("style", "opacity:1;")
+        let o = $(this).children('p')[0];
+        let x = $(this).children('p')[1];
+        if ($(o).attr("style", "opacity:0;")){
+            $(x).attr("style", "opacity:1;");
+        }else{
+
+        }
     }
    count++;
 }
