@@ -4,7 +4,7 @@
 This is a simple game of tic tac toe that alternates from Xs and Os.  This game will let you play until the board is filled up.  On refreshing the page, it will start the game over.
 
 ## Link to Webpage
-
+https://katemilano.github.io/tictactoe/
 
 ## Webpage Image 
 <img src="images/screenshot.png" >
