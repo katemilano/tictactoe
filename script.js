@@ -7,10 +7,6 @@ $(window).on('load', function() {
     
 })
 
-$("#video").on('play',function(){
-    $(this).playbackRate = .5;
-  });
-
 //When you click on the box game starts
 var count = 0;
 
@@ -19,14 +15,26 @@ function showMove(){
     let o = $(this).children('p')[0];
     let x = $(this).children('p')[1];
 
-    if($(x).attr("style", "opacity:0;") || $(o).attr("style", "opacity:0;")){
+    if($(o).css('opacity') != 1 && $(x).css('opacity') != 1){
+        console.log("open");
         if (count % 2 === 0){
             $(o).attr("style", "opacity:1;");   
         }else{
             $(x).attr("style", "opacity:1;");
         }
        count++;
+    }else{
+        console.log("taken");
     }
+
+    // if($(x).attr("style", "opacity:0;") || $(o).attr("style", "opacity:0;")){
+    //     if (count % 2 === 0){
+    //         $(o).attr("style", "opacity:1;");   
+    //     }else{
+    //         $(x).attr("style", "opacity:1;");
+    //     }
+    //    count++;
+    // }
 
   
 }
