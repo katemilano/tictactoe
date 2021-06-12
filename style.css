@@ -36,6 +36,7 @@
 #box{
     margin-left: 250px;
     width:800px;
+    margin-top: 0;
 }
 .cell {
     background-color: rgba(255, 255, 255, 0.8);
@@ -48,10 +49,10 @@
   }
 
   h1{
-      
-    margin-top: 5%;
-    margin-left: 30%;
-    font-size: 500%;
+    margin-top: 6%;
+    margin-left: 36%;
+    font-size: 450%;
+    margin-bottom: 20px;
     color: #fcf4a3;
     text-shadow: 5px 5px lightgrey;
     z-index: 1;
