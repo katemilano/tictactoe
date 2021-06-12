@@ -16,26 +16,19 @@ var count = 0;
 
 function showMove(){
     var p = $(this).children('p')[0];
+    let o = $(this).children('p')[0];
+    let x = $(this).children('p')[1];
 
-    if (count % 2 === 0){
-        let o = $(this).children('p')[0];
-        let x = $(this).children('p')[1];
-        if ($(x).attr("style", "opacity:0;")){
-            $(o).attr("style", "opacity:1;");
+    if($(x).attr("style", "opacity:0;") || $(o).attr("style", "opacity:0;")){
+        if (count % 2 === 0){
+            $(o).attr("style", "opacity:1;");   
         }else{
-
-        }
-            
-    }else{
-        let o = $(this).children('p')[0];
-        let x = $(this).children('p')[1];
-        if ($(o).attr("style", "opacity:0;")){
             $(x).attr("style", "opacity:1;");
-        }else{
-
         }
+       count++;
     }
-   count++;
+
+  
 }
 
 $(".cell").on("click", showMove);
